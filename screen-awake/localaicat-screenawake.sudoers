@@ -1,0 +1,4 @@
+# Installed by Local AI Cat (Screen Awake — reliable lid-closed mode).
+# Grants exactly the two commands needed to toggle system sleep; nothing else.
+# Remove this file to revoke: sudo rm /etc/sudoers.d/localaicat-screenawake
+you ALL=(root) NOPASSWD: /usr/bin/pmset -a disablesleep 1, /usr/bin/pmset -a disablesleep 0

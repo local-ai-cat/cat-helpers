@@ -1,0 +1,4 @@
+# Installed by Local AI Cat (Battery Energy Mode control).
+# Grants only exact Energy Mode commands; no Screen Awake commands.
+# Remove this file to revoke: sudo rm /etc/sudoers.d/localaicat-battery
+you ALL=(root) NOPASSWD: /usr/bin/pmset -a powermode 0, /usr/bin/pmset -a powermode 1, /usr/bin/pmset -a powermode 2, /usr/bin/pmset -a lowpowermode 0, /usr/bin/pmset -a lowpowermode 1
